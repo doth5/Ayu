@@ -1,0 +1,29 @@
+# Virtual environment
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Environment & secrets
+.env
+.env.local
+*.env
+
+# Browser & session data
+wa_session/
+test_chrome_session/
+test_chromium_session/
+test_closed/
+
+# Local database & storage
+data/
+storage/
+media/
+scratch/
+
+# IDE / OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
